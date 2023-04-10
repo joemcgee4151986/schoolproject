@@ -1,8 +1,10 @@
-import Vue from 'vue'
-import App from './App.vue'
-
-Vue.config.productionTip = false
+import Vue from "vue";
+import SurveyComponent from "./components/SurveyComponent";
 
 new Vue({
-  render: h => h(App),
-}).$mount('#app')
+    el: "#app",
+    template: '<div id="surveyElement"> <survey-component /></div>',
+    component: {
+        "survey-component": SurveyComponent
+    }
+});
