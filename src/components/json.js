@@ -12,13 +12,13 @@ export const json = {
           "name": "question1",
           "title": "Little interest or pleasure in doing things",
           "rateMax": 3,
-          "minRateDescription": "All of the time",
-          "maxRateDescription": "None of the time"
+          "minRateDescription": "Not at all",
+          "maxRateDescription": "Nearly everyday"
         },
         {
           "type": "rating",
           "name": "question2",
-          "title": "In the last 2 weeks, have you been bothered by sputum (phlegm) production when you cough?",
+          "title": "Feeling down, depressed or hopeless",
           "rateMax": 7,
           "minRateDescription": "All of the time",
           "maxRateDescription": "None of the time"
