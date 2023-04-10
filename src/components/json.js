@@ -20,16 +20,16 @@ export const json = {
           "name": "question2",
           "title": "Feeling down, depressed or hopeless",
           "rateMax": 7,
-          "minRateDescription": "All of the time",
-          "maxRateDescription": "None of the time"
+          "minRateDescription": "Not at all",
+          "maxRateDescription": "Nearly everyday"
         },
         {
           "type": "rating",
           "name": "question3",
           "title": "In the last 2 weeks, have you been tired because of your cough?",
           "rateMax": 7,
-          "minRateDescription": "All of the time",
-          "maxRateDescription": "None of the time"
+          "minRateDescription": "Not at all",
+          "maxRateDescription": "Nearly everyday"
         },
         {
           "type": "rating",
