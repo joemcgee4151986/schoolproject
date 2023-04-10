@@ -122,7 +122,7 @@ export const json = {
         },
         {
           "type": "rating",
-          "name": "question13",
+          "name": "question 13",
           "title": "In the last 2 weeks, exposure to paints or fumes has made me cough",
           "rateMin": 0,
           "rateMax": 3,
