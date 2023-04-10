@@ -11,6 +11,7 @@ export const json = {
           "type": "rating",
           "name": "question1",
           "title": "Little interest or pleasure in doing things",
+          "rateMin": 0,
           "rateMax": 3,
           "minRateDescription": "Not at all",
           "maxRateDescription": "Nearly everyday"
@@ -19,7 +20,8 @@ export const json = {
           "type": "rating",
           "name": "question2",
           "title": "Feeling down, depressed or hopeless",
-          "rateMax": 7,
+          "rateMin": 0,
+          "rateMax": 3,
           "minRateDescription": "Not at all",
           "maxRateDescription": "Nearly everyday"
         },
@@ -27,7 +29,8 @@ export const json = {
           "type": "rating",
           "name": "question3",
           "title": "In the last 2 weeks, have you been tired because of your cough?",
-          "rateMax": 7,
+          "rateMin": 0,
+          "rateMax": 3,
           "minRateDescription": "Not at all",
           "maxRateDescription": "Nearly everyday"
         },
@@ -35,7 +38,8 @@ export const json = {
           "type": "rating",
           "name": "question4",
           "title": "In the last 2 weeks, have you felt in control of your cough?",
-          "rateMax": 7,
+          "rateMin": 0,
+          "rateMax": 3,
           "minRateDescription": "All of the time",
           "maxRateDescription": "None of the time"
         },
@@ -52,7 +56,8 @@ export const json = {
               "type": "rating",
               "name": "question6",
               "title": "How often during the last 2 weeks have you felt embarassed by your coughing?",
-              "rateMax": 7,
+              "rateMin": 0,
+              "rateMax": 3,
               "minRateDescription": "All of the time",
               "maxRateDescription": "None of the time"
             },
@@ -60,7 +65,8 @@ export const json = {
               "type": "rating",
               "name": "question7",
               "title": "In the last 2 weeks, my cough has made me feel anxious",
-              "rateMax": 7,
+              "rateMin": 0,
+          "rateMax": 3,
               "minRateDescription": "All of the time",
               "maxRateDescription": "None of the time"
             },
@@ -68,7 +74,8 @@ export const json = {
               "type": "rating",
               "name": "question8",
               "title": "In the last 2 weeks, my cough has interfered with my job, or other daily tasks",
-              "rateMax": 7,
+              "rateMin": 0,
+              "rateMax": 3,
               "minRateDescription": "All of the time",
               "maxRateDescription": "None of the time"
             },
@@ -76,7 +83,8 @@ export const json = {
               "type": "rating",
               "name": "question9",
               "title": "In the last 2 weeks, I felt that my cough interfered with the overall enjoyment of my life",
-              "rateMax": 7,
+              "rateMin": 0,
+              "rateMax": 3,
               "minRateDescription": "All of the time",
               "maxRateDescription": "None of the time"
             },
@@ -84,7 +92,8 @@ export const json = {
               "type": "rating",
               "name": "question10",
               "title": "In the last 2 weeks, have you been concerned that other people think something is wrong with you, because of your cough?",
-              "rateMax": 7,
+              "rateMin": 0,
+              "rateMax": 3,
               "minRateDescription": "All of the time",
               "maxRateDescription": "None of the time"
             },
@@ -92,7 +101,8 @@ export const json = {
               "type": "rating",
               "name": "question11",
               "title": "In the last 2 weeks, my cough has interrupted conversation or phone calls",
-              "rateMax": 7,
+              "rateMin": 0,
+              "rateMax": 3,
               "minRateDescription": "All of the time",
               "maxRateDescription": "None of the time"
             },
@@ -100,7 +110,8 @@ export const json = {
               "type": "rating",
               "name": "question12",
               "title": "In the last 2 weeks, my cough has annoyed my partner, family, or friends",
-              "rateMax": 7,
+              "rateMin": 0,
+              "rateMax": 3,
               "minRateDescription": "All of the time",
               "maxRateDescription": "None of the time"
             }
@@ -111,9 +122,10 @@ export const json = {
         },
         {
           "type": "rating",
-          "name": "question13",
+          "name": "question 13",
           "title": "In the last 2 weeks, exposure to paints or fumes has made me cough",
-          "rateMax": 7,
+          "rateMin": 0,
+          "rateMax": 3,
           "minRateDescription": "All of the time",
           "maxRateDescription": "None of the time"
         },
@@ -121,7 +133,8 @@ export const json = {
           "type": "rating",
           "name": "question14",
           "title": "In the last 2 weeks, how many times a day have you had coughing bouts?",
-          "rateMax": 7,
+          "rateMin": 0,
+          "rateMax": 3,
           "minRateDescription": "Continously",
           "maxRateDescription": "None "
         },
@@ -129,7 +142,8 @@ export const json = {
           "type": "rating",
           "name": "question15",
           "title": "In the last 2 weeks, have you had a lot of energy?",
-          "rateMax": 7,
+          "rateMin": 0,
+          "rateMax": 3,
           "minRateDescription": "All of the time",
           "maxRateDescription": "None of the time"
         },
