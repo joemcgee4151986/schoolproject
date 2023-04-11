@@ -1,10 +1,13 @@
+
+
 import Vue from "vue";
-import SurveyComponent from "./components/SurveyComponent";
+import SurveyPdfComponent from "./components/SurveyComponent";
 
 new Vue({
     el: "#app",
-    template: '<div id="surveyElement"> <survey-component /></div>',
+    template: '<div id="surveyElement"> <survey-pdf-component /></div>',
     component: {
-        "survey-component": SurveyComponent
+        "survey-pdf-component": SurveyPdfComponent
     }
 });
+
